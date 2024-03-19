@@ -1,0 +1,29 @@
+{
+  "name": "fastify-caching-redis",
+  "version": "1.0.0",
+  "description": "An example project showing how to use Redis to cache responses for a Fastify app",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "fastify start -a 0.0.0.0 -l info app.js",
+    "dev": "fastify start -p 8000 -w -l info -P app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alvinslee/fastify-caching-redis.git"
+  },
+  "keywords": [
+    "nodejs",
+    "fastify",
+    "redis"
+  ],
+  "author": "Alvin Lee",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/alvinslee/fastify-caching-redis",
+  "dependencies": {
+    "@fastify/redis": "^6.1.1",
+    "fastify": "^4.26.2",
+    "fastify-cli": "^6.1.1",
+    "fastify-plugin": "^4.5.1"
+  }
+}
